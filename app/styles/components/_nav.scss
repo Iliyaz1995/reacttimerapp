@@ -1,0 +1,18 @@
+.top-bar, .top-bar-left ul, .top-bar-right ul{
+  background-color: $nav-background;
+}
+.top-bar{
+  .menu-text{
+    color: $white;
+  }
+  .menu > .menu-text > a{
+    display: inline;
+    padding: 5px;
+  }
+  .menu > li > a{
+    color: $nav-link-color;
+  }
+  .menu > li > a:hover{
+    color: $nav-link-color-hover;
+  }
+}
